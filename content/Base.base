@@ -71,7 +71,7 @@ views:
     filters:
       or:
         - file.hasTag("component")
-        - file.inFolder("zh-docs-quartz-v5/features")
+        - file.inFolder("features")
     order:
       - file.name
       - title
@@ -87,12 +87,12 @@ views:
     name: Core Guides
     filters:
       not:
-        - file.inFolder("zh-docs-quartz-v5/plugins")
-        - file.inFolder("zh-docs-quartz-v5/features")
-        - file.inFolder("zh-docs-quartz-v5/advanced")
-        - file.inFolder("zh-docs-quartz-v5/getting-started")
-        - file.inFolder("zh-docs-quartz-v5/cli")
-        - file.inFolder("zh-docs-quartz-v5/tags")
+        - file.inFolder("plugins")
+        - file.inFolder("features")
+        - file.inFolder("advanced")
+        - file.inFolder("getting-started")
+        - file.inFolder("cli")
+        - file.inFolder("tags")
     order:
       - file.name
       - title
@@ -126,7 +126,7 @@ views:
     name: Image Cards
     filters:
       and:
-        - file.inFolder("zh-docs-quartz-v5/plugins")
+        - file.folder == "plugins"
         - "!image.isEmpty()"
     order:
       - file.name

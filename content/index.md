@@ -1,16 +1,69 @@
 ---
-title: Quartz v5 教程文档中文翻译
+title: 欢迎使用 Quartz 5
 ---
 
-> 本项目完全自翻自用，仅供参考。
+Quartz 是一个快速、开箱即用的静态站点生成器，可将 Markdown 内容转换为功能完备的网站。数千名学生、开发者和教师正在 [[showcase|使用 Quartz]] 将个人笔记、网站和[数字花园](https://jzhao.xyz/posts/networked-thought)发布到网络上。
 
-## 项目完成工作
+## 🪴 快速开始
 
-1. 简单使用 DSH 翻译 Quartz v5 文档的内容。
+Quartz 需要 **至少 [Node](https://nodejs.org/) v22** 和 `npm` v10.9.2 才能正常运行。继续操作之前，请确保你的机器上已安装这些内容。安装方法参见[[getting-started/index#Prerequisites|前置条件]]。
 
+> [!tip] GitHub 用户
+> 你也可以使用 **[GitHub 模板](https://github.com/jackyzha0/quartz/generate)** 一键创建你的仓库，然后改为克隆该仓库。参见安装指南中的[[installation#Option A Use the GitHub Template Recommended|选项 A]]。
+
+```shell
+# 1. 克隆 Quartz 仓库
+git clone https://github.com/jackyzha0/quartz.git
+cd quartz
+
+# 2. 安装依赖
+npm i
+
+# 3. 初始化你的站点（选择模板、设置 baseUrl、导入内容）
+npx quartz create
+
+# 4. 安装所选模板引用的插件
+npx quartz plugin install --from-config
+
+# 5. 在本地预览你的站点
+npx quartz build --serve
 ```
-这是 quartz 仓库的模板，其中 @docs/ 下记录了 quartz v5 的相关教程，现在，我在 @content/ 目录下新建了一个文件夹 @content/zh-docs-quartz-v5/ ，需要你将 @docs/ 下的文件翻译成中文并创建到这个文件夹下，不要改变原本 @docs/ 下的文件，只翻译 markdown 文件，对于其他文件，直接调用系统命令复制，不要做其他操作。对于 markdown 文件，不要改变文件名，只翻译文件内部的内容。你需要保留原本的 markdown 的相关格式标记，此外，对于 markdown 文件的元数据，只翻译 标题 和 描述 的部分为中文，其他的，如 标签 和 链接 等其他元数据，保留原本的英文。
+
+你的站点现在运行在 `http://localhost:8080`。接下来你可以：
+
+- **在 `content/` 文件夹中[[authoring-content|编写内容]]**
+- **使用 `npx quartz sync` [[installation|推送到 GitHub]]**
+- **[[hosting|部署]]到 GitHub Pages、Cloudflare、Netlify 或 Vercel**
+
+完整教程参见[[getting-started/index|快速开始]]指南。
+
+### 老用户？
+
+已经有一个 Quartz 仓库，想在新机器上克隆它？
+
+```shell
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
+npm ci
+npx quartz plugin install
+npx quartz build --serve
 ```
 
-2. 手动调整了 [[Base.base]] 和 [[zh-docs-quartz-v5/plugins/index|插件 (Plugins)]] 文件中内嵌 `base` 代码中的文件路径，使页面正常显示表格内容。
-3. 保留了文件的英文名，保留了标签等元素的英文原词，保留 [[Canvas.canvas]] 文件的英文原文，没有进一步翻译。
+> [!tip]
+> 如果在全新克隆后遇到构建错误，可以尝试 `npx quartz plugin install --latest` 将插件刷新到最新版本。详情参见 [[troubleshooting#Plugins fail to build on a fresh clone]]。
+
+## 🔧 功能
+
+- 开箱即用的 [[Obsidian compatibility]]、[[full-text search]]、[[graph view]]、[[wikilinks|维基链接、嵌入]]、[[plugins/Backlinks]]、[[features/Latex|Latex]]、[[syntax highlighting]]、[[popover previews]]、[[Docker Support]]、[[i18n|国际化]]、[[features/comments|评论]]以及[更多功能](./features/)
+- 配置修改支持热重载，内容修改支持增量重建
+- 简洁的 JSX 布局与[[creating components|页面组件]]
+- [[SPA Routing|极快的页面加载速度]]与极小的打包体积
+- 通过[[making plugins|插件]]完全自定义解析、过滤与页面生成
+
+完整的特性列表参见[特性页面](./features/)。你可以在[[philosophy]]页面进一步了解这些特性背后的 _原因_，并在[[architecture]]页面查看技术概览。
+
+### 🚧 故障排查与更新
+
+使用 Quartz 遇到问题？可以尝试用搜索功能查找你的问题，或查看[[troubleshooting]]页面。如果你还没有升级，请[[upgrading|升级]]到最新版本的 Quartz，看看能否解决你的问题。
+
+如果仍有问题，认为发现了 bug，可以随时[提交 issue](https://github.com/jackyzha0/quartz/issues)，或在我们的 [Discord 社区](https://discord.gg/cRFFHYye7t)寻求帮助。你也可以浏览[[community]]页面，了解第三方插件和资源。

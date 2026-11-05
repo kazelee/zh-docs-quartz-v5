@@ -1,9 +1,14 @@
 # Quartz v5 教程文档中文翻译
 
-> 本项目完全自翻自用，仅供参考。
+> 本项目完全使用 AI 翻译，没有经过人工校对，不代表官方，仅为个人自用，内容仅供参考。
 
-## 项目完成工作
+## 项目说明
 
+1. 使用 DSH 批量翻译，将 `doc/` 下的所有 markdown 文件和 canvas 文件内容翻译，并复制到 `content/` 目录下。
+2. 保留原本的文件结构和文件名称，部分文件内容（如标签、链接等）保留英文原文。
+3. 文档目前的版本基于 [Quartz v5](https://github.com/jackyzha0/quartz) 仓库 [Commit 97a2d05](https://github.com/jackyzha0/quartz/commit/97a2d05f80c4c50534959b1d0d41cc4b3895625e) 版本翻译，大概率不会更新，内容仅供参考。
+
+<!--
 1. 简单使用 DSH 翻译 Quartz v5 文档的内容。
 
 ```
@@ -12,3 +17,21 @@
 
 2. 手动调整了 `Base.base` 和 `zh-docs-quartz-v5/plugins/index.md` 文件中内嵌 `base` 代码中的文件路径，使页面正常显示表格内容。
 3. 保留了文件的英文名，保留了标签等元素的英文原词，保留 `Canvas.canvas` 文件的英文原文，没有进一步翻译。
+
+## 项目优化补充
+
+实测发现，还是存在一些链接对应不上的问题。比如，与本 `README.md` 内容相同，用于说明翻译情况的 `content/index.md` 被 `content/zh-docs-quartz-v5/getting-started/index.md` 的 `[[index#🪴 Get Started|快速开始]]` 引用。为了减少不必要的折腾，删除 `content/zh-docs-quartz-v5/` 文件夹，改成和 [Quartz 官网](https://quartz.jzhao.xyz/) 一样的结构。恢复部分 `base` 代码。
+
+```
+content   [OLD VERSION]
+ │  index.md            (updated by `index.md` from `zh-docs-quartz-v5`)
+ │  
+ └─zh-docs-quartz-v5    (deleted)
+    ├─cli               (moved from `zh-docs-quartz-v5` to `content`)
+    ├─features          (moved from `zh-docs-quartz-v5` to `content`)
+    ├─getting-started   (moved from `zh-docs-quartz-v5` to `content`)
+    ├─images            (moved from `zh-docs-quartz-v5` to `content`)
+    ├─plugins           (moved from `zh-docs-quartz-v5` to `content`)
+    └─tags              (moved from `zh-docs-quartz-v5` to `content`)
+```
+-->

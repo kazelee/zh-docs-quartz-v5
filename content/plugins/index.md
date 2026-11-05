@@ -26,7 +26,7 @@ Quartz 插件分为以下几类：
 filters:
   and:
     - file.ext == "md"
-    - file.inFolder("zh-docs-quartz-v5/plugins")
+    - file.inFolder("plugins")
     - "!file.name.startsWith('index')"
     - "!file.name.contains('Demo')"
     - "!file.name.contains('Static')"

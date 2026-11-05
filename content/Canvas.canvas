@@ -8,7 +8,7 @@
       "width": 1220,
       "height": 460,
       "color": "6",
-      "label": "Node Types"
+      "label": "节点类型"
     },
     {
       "id": "group-config",
@@ -18,7 +18,7 @@
       "width": 1220,
       "height": 360,
       "color": "2",
-      "label": "Configuration"
+      "label": "配置"
     },
     {
       "id": "group-colors",
@@ -28,7 +28,7 @@
       "width": 1220,
       "height": 320,
       "color": "4",
-      "label": "Preset Colors"
+      "label": "预设颜色"
     },
     {
       "id": "group-edges",
@@ -38,12 +38,12 @@
       "width": 1220,
       "height": 320,
       "color": "3",
-      "label": "Edges & Connections"
+      "label": "边与连接"
     },
     {
       "id": "title",
       "type": "text",
-      "text": "# CanvasPage Plugin\n\nThis plugin renders [JSON Canvas](https://jsoncanvas.org) (`.canvas`) files as interactive, pannable and zoomable canvas pages. It supports the full [JSON Canvas 1.0 spec](https://jsoncanvas.org/spec/1.0/).\n\nInstall: `npx quartz plugin add github:quartz-community/canvas-page`",
+      "text": "# CanvasPage 插件\n\n此插件将 [JSON Canvas](https://jsoncanvas.org)（`.canvas`）文件渲染为可交互、可平移和缩放的画布页面。它支持完整的 [JSON Canvas 1.0 规范](https://jsoncanvas.org/spec/1.0/)。\n\n安装：`npx quartz plugin add github:quartz-community/canvas-page`",
       "x": 0,
       "y": 0,
       "width": 560,
@@ -53,7 +53,7 @@
     {
       "id": "text-node-demo",
       "type": "text",
-      "text": "## Text Nodes\n\nText nodes render **Markdown** content with GFM support:\n\n- **Bold** and *italic* text\n- ~~Strikethrough~~ text\n- [External links](https://jsoncanvas.org)\n- `Inline code` blocks\n- Lists (like this one)\n\n### Headings Work Too\n\nAll standard Markdown syntax is rendered at build time.",
+      "text": "## 文本节点\n\n文本节点渲染支持 GFM 的 **Markdown** 内容：\n\n- **粗体**和 *斜体* 文本\n- ~~删除线~~ 文本\n- [外部链接](https://jsoncanvas.org)\n- `行内代码` 块\n- 列表（就像这个）\n\n### 标题也可以\n\n所有标准 Markdown 语法都会在构建时渲染。",
       "x": 0,
       "y": 300,
       "width": 360,
@@ -63,7 +63,7 @@
     {
       "id": "file-node-info",
       "type": "text",
-      "text": "## File Nodes\n\nFile nodes reference other pages in your vault. They appear as clickable links and support **popover previews** on hover.\n\nThe node below links to the CanvasPage documentation:",
+      "text": "## 文件节点\n\n文件节点引用你仓库中的其他页面。它们显示为可点击链接，并支持悬停时的 **弹出预览**。\n\n下面的节点链接到 CanvasPage 文档：",
       "x": 400,
       "y": 300,
       "width": 360,
@@ -83,7 +83,7 @@
     {
       "id": "link-node-info",
       "type": "text",
-      "text": "## Link Nodes\n\nLink nodes reference external URLs. The node below links to the JSON Canvas specification:",
+      "text": "## 链接节点\n\n链接节点引用外部 URL。下面的节点链接到 JSON Canvas 规范：",
       "x": 800,
       "y": 300,
       "width": 360,
@@ -103,7 +103,7 @@
     {
       "id": "color-1",
       "type": "text",
-      "text": "**Color 1** — Red",
+      "text": "**颜色 1** — 红色",
       "x": 0,
       "y": 830,
       "width": 180,
@@ -113,7 +113,7 @@
     {
       "id": "color-2",
       "type": "text",
-      "text": "**Color 2** — Orange",
+      "text": "**颜色 2** — 橙色",
       "x": 200,
       "y": 830,
       "width": 180,
@@ -123,7 +123,7 @@
     {
       "id": "color-3",
       "type": "text",
-      "text": "**Color 3** — Yellow",
+      "text": "**颜色 3** — 黄色",
       "x": 400,
       "y": 830,
       "width": 180,
@@ -133,7 +133,7 @@
     {
       "id": "color-4",
       "type": "text",
-      "text": "**Color 4** — Green",
+      "text": "**颜色 4** — 绿色",
       "x": 600,
       "y": 830,
       "width": 180,
@@ -143,7 +143,7 @@
     {
       "id": "color-5",
       "type": "text",
-      "text": "**Color 5** — Cyan",
+      "text": "**颜色 5** — 青色",
       "x": 800,
       "y": 830,
       "width": 180,
@@ -153,7 +153,7 @@
     {
       "id": "color-6",
       "type": "text",
-      "text": "**Color 6** — Purple",
+      "text": "**颜色 6** — 紫色",
       "x": 1000,
       "y": 830,
       "width": 180,
@@ -163,7 +163,7 @@
     {
       "id": "color-custom",
       "type": "text",
-      "text": "**Custom hex color** — `#ff6600`",
+      "text": "**自定义十六进制颜色** — `#ff6600`",
       "x": 400,
       "y": 950,
       "width": 380,
@@ -173,7 +173,7 @@
     {
       "id": "config-options",
       "type": "text",
-      "text": "## Configuration Options\n\n- `enableInteraction` — Enable pan and zoom. Default: `true`\n- `initialZoom` — Initial zoom level. Default: `1`\n- `minZoom` — Minimum zoom level. Default: `0.1`\n- `maxZoom` — Maximum zoom level. Default: `5`\n- `defaultFullscreen` — Start in fullscreen mode. Default: `false`\n\nConfigure in `quartz.config.yaml`:\n\n```\nCanvasPage({ defaultFullscreen: false, initialZoom: 1 })\n```",
+      "text": "## 配置选项\n\n- `enableInteraction` — 启用平移和缩放。默认值：`true`\n- `initialZoom` — 初始缩放级别。默认值：`1`\n- `minZoom` — 最小缩放级别。默认值：`0.1`\n- `maxZoom` — 最大缩放级别。默认值：`5`\n- `defaultFullscreen` — 以全屏模式启动。默认值：`false`\n\n在 `quartz.config.yaml` 中配置：\n\n```\nCanvasPage({ defaultFullscreen: false, initialZoom: 1 })\n```",
       "x": 0,
       "y": 1220,
       "width": 560,
@@ -182,7 +182,7 @@
     {
       "id": "config-fullscreen",
       "type": "text",
-      "text": "## Fullscreen Mode\n\nClick the **expand button** (top-right corner) to toggle fullscreen mode. The canvas fills the entire viewport.\n\n- Press **Escape** to exit fullscreen\n- Set `defaultFullscreen: true` to start in fullscreen\n- The toggle button switches between expand and collapse icons\n\n## Quartz Integration\n\n- **Popover previews**: Hover over file nodes to see a preview\n- **Internal links**: File nodes link to pages in your vault\n- **Dark mode**: Canvas adapts to your theme settings",
+      "text": "## 全屏模式\n\n点击 **展开按钮**（右上角）以切换全屏模式。画布会填满整个视口。\n\n- 按 **Escape** 退出全屏\n- 设置 `defaultFullscreen: true` 以全屏启动\n- 切换按钮会在展开和折叠图标之间切换\n\n## Quartz 集成\n\n- **弹出预览**：将鼠标悬停在文件节点上查看预览\n- **内部链接**：文件节点链接到你仓库中的页面\n- **深色模式**：画布会适应你的主题设置",
       "x": 600,
       "y": 1220,
       "width": 560,
@@ -191,7 +191,7 @@
     {
       "id": "edge-source",
       "type": "text",
-      "text": "## Edges\n\nEdges connect nodes with SVG paths. They support **labels**, **arrows**, and **colors**.",
+      "text": "## 边\n\n边使用 SVG 路径连接节点。它们支持 **标签**、**箭头** 和 **颜色**。",
       "x": 0,
       "y": 1650,
       "width": 300,
@@ -201,7 +201,7 @@
     {
       "id": "edge-labeled",
       "type": "text",
-      "text": "This edge has a **label** and an arrow marker.",
+      "text": "这条边有一个 **标签** 和一个箭头标记。",
       "x": 450,
       "y": 1650,
       "width": 260,
@@ -211,7 +211,7 @@
     {
       "id": "edge-colored",
       "type": "text",
-      "text": "This edge has a **custom color** (`#ff6600`).",
+      "text": "这条边有一个 **自定义颜色**（`#ff6600`）。",
       "x": 450,
       "y": 1780,
       "width": 260,
@@ -221,7 +221,7 @@
     {
       "id": "edge-preset",
       "type": "text",
-      "text": "Edges can use the same **preset colors** (1–6) as nodes, or custom **hex colors** like `#ff6600`.",
+      "text": "边可以使用与节点相同的 **预设颜色**（1–6），或使用自定义 **十六进制颜色**，例如 `#ff6600`。",
       "x": 850,
       "y": 1650,
       "width": 300,
@@ -231,7 +231,7 @@
     {
       "id": "api-info",
       "type": "text",
-      "text": "## API\n\n- **Category**: Page Type\n- **Function name**: `ExternalPlugin.CanvasPage()`\n- **Source**: [quartz-community/canvas-page](https://github.com/quartz-community/canvas-page)\n- **Install**: `npx quartz plugin add github:quartz-community/canvas-page`",
+      "text": "## API\n\n- **类别**：页面类型\n- **函数名**：`ExternalPlugin.CanvasPage()`\n- **源码**：[quartz-community/canvas-page](https://github.com/quartz-community/canvas-page)\n- **安装**：`npx quartz plugin add github:quartz-community/canvas-page`",
       "x": 0,
       "y": 2000,
       "width": 560,
@@ -240,7 +240,7 @@
     {
       "id": "spec-info",
       "type": "text",
-      "text": "## JSON Canvas Spec\n\nThis plugin implements the [JSON Canvas 1.0](https://jsoncanvas.org/spec/1.0/) specification — an open file format for infinite canvas data.\n\nCanvas files use the `.canvas` extension and are standard JSON. They are natively supported by [Obsidian](https://obsidian.md).",
+      "text": "## JSON Canvas 规范\n\n此插件实现了 [JSON Canvas 1.0](https://jsoncanvas.org/spec/1.0/) 规范——一种用于无限画布数据的开放文件格式。\n\nCanvas 文件使用 `.canvas` 扩展名，并且是标准 JSON。它们由 [Obsidian](https://obsidian.md) 原生支持。",
       "x": 600,
       "y": 2000,
       "width": 560,
@@ -254,7 +254,7 @@
       "fromSide": "bottom",
       "toNode": "group-node-types",
       "toSide": "top",
-      "label": "supports"
+      "label": "支持"
     },
     {
       "id": "edge-info-to-file",
@@ -299,7 +299,7 @@
       "fromSide": "right",
       "toNode": "edge-labeled",
       "toSide": "left",
-      "label": "labeled edge"
+      "label": "带标签的边"
     },
     {
       "id": "edge-colored-demo",
