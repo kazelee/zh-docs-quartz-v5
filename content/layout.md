@@ -33,10 +33,10 @@ export interface FullPageLayout {
 | 移动端（宽度 < 800px）          | ![[quartz-layout-mobile.png\|800]]  |
 
 > [!note]
-> 还有两个布局字段_未_在上图中展示。
+> 还有两个布局字段 _未_ 在上图中展示。
 >
 > 1. `head` 是单个组件，负责渲染 HTML 中的 `<head>` [标签](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head)。它在页面上不可见，只负责文档的元数据，如标签页标题、脚本和样式。
-> 2. `header` 是一组水平排列的组件，出现在 `beforeBody` 区域_之前_。你可以在插件配置中设置 `layout.position: header` 把组件放入 header。这样可以实现类似 Quartz 3 顶部栏的布局，包含标题、搜索栏和深色模式切换。
+> 2. `header` 是一组水平排列的组件，出现在 `beforeBody` 区域 _之前_。你可以在插件配置中设置 `layout.position: header` 把组件放入 header。这样可以实现类似 Quartz 3 顶部栏的布局，包含标题、搜索栏和深色模式切换。
 
 布局组件在 `quartz.config.yaml` 的 `layout` 部分配置。插件声明自己的位置和优先级，布局系统会自动安排它们：
 

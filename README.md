@@ -6,7 +6,8 @@
 
 1. 使用 DSH 批量翻译，将 `doc/` 下的所有 markdown 文件和 canvas 文件内容翻译，并复制到 `content/` 目录下。
 2. 保留原本的文件结构和文件名称，部分文件内容（如标签、链接等）保留英文原文。
-3. 文档目前的版本基于 [Quartz v5](https://github.com/jackyzha0/quartz) 仓库 [Commit 97a2d05](https://github.com/jackyzha0/quartz/commit/97a2d05f80c4c50534959b1d0d41cc4b3895625e) 版本翻译，大概率不会更新，内容仅供参考。
+3. 修复了部分中文斜体样式没有正常渲染的问题（`_中文_` 周围必须有空格或者符号，否则不会视作斜体）
+4. 文档目前的版本基于 [Quartz v5](https://github.com/jackyzha0/quartz) 仓库 [Commit 97a2d05](https://github.com/jackyzha0/quartz/commit/97a2d05f80c4c50534959b1d0d41cc4b3895625e) 版本翻译，大概率不会更新，内容仅供参考。
 
 <!--
 1. 简单使用 DSH 翻译 Quartz v5 文档的内容。

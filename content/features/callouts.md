@@ -50,7 +50,7 @@ Quartz 支持与 Obsidian 相同的 Admonition 标注块（callout）语法。
 > [!info]
 > 默认标题
 
-> [!question]+ 标注块可以_嵌套_吗？
+> [!question]+ 标注块可以 _嵌套_ 吗？
 >
 > > [!todo]- 可以！而且还能折叠！
 > >
