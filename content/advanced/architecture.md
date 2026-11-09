@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 架构
 ---
 
@@ -84,7 +85,7 @@ Quartz v5 引入了社区插件系统。插件是独立的 Git 仓库，会被�
 - **过滤器**：过滤内容（移除草稿、显式发布）
 - **输出器**：对内容做归约（生成 RSS、站点地图、别名重定向、OG 图片）
 - **页面类型**：定义页面如何渲染。每种页面类型处理特定类型的页面（内容笔记、文件夹列表、标签列表、404）。`PageTypeDispatcher` 输出器会根据内容把页面路由到合适的页面类型插件。
-- **Bases 视图**：为 `bases-page` 插件的类数据库视图系统提供的自定义视图渲染器。插件可以通过 `ViewRegistry` 注册新的视图类型（例如时间线、看板）。详见 [[making plugins#Bases Views]]。
+- **Bases 视图**：为 `bases-page` 插件的类数据库视图系统提供的自定义视图渲染器。插件可以通过 `ViewRegistry` 注册新的视图类型（例如时间线、看板）。详见 [[making plugins#Bases 视图]]。
 
 注意，插件类型**并非互斥**——同一个插件既可以是转换器并提供组件（例如 `obsidian-flavored-markdown`），也可以是页面类型并提供自定义框架（例如 `canvas-page`）。
 
@@ -144,6 +145,8 @@ Quartz v5 引入了社区插件系统。插件是独立的 Git 仓库，会被�
 
 ### 插件提供的框架
 
-社区插件可以自带框架：从 `./frames` 子路径导出，并在插件清单中声明。例如，`canvas-page` 插件提供了 `"canvas"` 框架，具有全屏布局和可切换的侧边栏。实现细节见 [[making plugins#Providing Custom Frames]]。
+社区插件可以自带框架：从 `./frames` 子路径导出，并在插件清单中声明。例如，`canvas-page` 插件提供了 `"canvas"` 框架，具有全屏布局和可切换的侧边栏。实现细节见 [[making plugins#提供自定义框架]]。
 
-面向用户的文档见 [[layout#Page Frames]]，关于如何在页面类型插件中设置框架见 [[making plugins#Page Types]]。
+面向用户的文档见 [[layout#页面框架]]，关于如何在页面类型插件中设置框架见 [[making plugins#Page Types]]。
+
+> [TranslatorNote] 译者注：这里的原文就是 `[[making plugins#Page Types]]`，但是实际这个页面不指向任何标题，这里不做修改。

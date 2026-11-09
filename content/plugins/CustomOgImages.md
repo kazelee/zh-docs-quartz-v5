@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 自定义 OG 图片 (CustomOgImages)
 description: 生成 Open Graph 社交预览图片。
 tags:
@@ -12,7 +13,7 @@ required: false
 Custom OG Images 输出器插件为你的页面生成社交媒体预览图片。它使用 [satori](https://github.com/vercel/satori) 将 HTML/CSS 转换为图片，让你可以为内容创建美观且一致的社交媒体预览卡片。
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参见 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参见 [[configuration#插件|配置]] 页面。
 
 ## 功能
 

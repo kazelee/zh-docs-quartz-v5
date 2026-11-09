@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 加密页面演示 (EncryptedPages Demo)
 password: quartz
 unlisted: true

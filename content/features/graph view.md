@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: "关系图谱"
 tags:
   - component

@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 评论 (Comments)
 description: 评论系统集成（Giscus、Utterances 等）。
 tags:

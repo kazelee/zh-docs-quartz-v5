@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 内容元数据 (ContentMeta)
 description: 显示创建日期和阅读时间。
 tags:

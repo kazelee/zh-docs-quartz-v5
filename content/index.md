@@ -1,15 +1,18 @@
 ---
+date: 2026-09-20
 title: 欢迎使用 Quartz 5
 ---
+
+> [TranslatorNote] 译者注：翻译该网站时，误以为所有的文档日期都是 `2026-09-20`，但实际可能不是这样。同时，由于翻译修复的过程中，原网站又进行了更新，实际的日期已经不可考证，故全部改为主页的日期。本翻译仅供个人自用参考，故不会同步更新官网进度，还请谅解。其他文档的翻译笔记内容，可以尝试全局搜索 `[TranslatorNote]` 查询（不要直接使用 `译者注` 查询，该网页的全局搜索使用中文时存在一定问题，可能会命中并不存在该关键词的页面）
 
 Quartz 是一个快速、开箱即用的静态站点生成器，可将 Markdown 内容转换为功能完备的网站。数千名学生、开发者和教师正在 [[showcase|使用 Quartz]] 将个人笔记、网站和[数字花园](https://jzhao.xyz/posts/networked-thought)发布到网络上。
 
 ## 🪴 快速开始
 
-Quartz 需要 **至少 [Node](https://nodejs.org/) v22** 和 `npm` v10.9.2 才能正常运行。继续操作之前，请确保你的机器上已安装这些内容。安装方法参见[[getting-started/index#Prerequisites|前置条件]]。
+Quartz 需要 **至少 [Node](https://nodejs.org/) v22** 和 `npm` v10.9.2 才能正常运行。继续操作之前，请确保你的机器上已安装这些内容。安装方法参见[[getting-started/index#前置条件|前置条件]]。
 
 > [!tip] GitHub 用户
-> 你也可以使用 **[GitHub 模板](https://github.com/jackyzha0/quartz/generate)** 一键创建你的仓库，然后改为克隆该仓库。参见安装指南中的[[installation#Option A Use the GitHub Template Recommended|选项 A]]。
+> 你也可以使用 **[GitHub 模板](https://github.com/jackyzha0/quartz/generate)** 一键创建你的仓库，然后改为克隆该仓库。参见安装指南中的[[installation#方式 A：使用 GitHub 模板（推荐）|选项 A]]。
 
 ```shell
 # 1. 克隆 Quartz 仓库
@@ -50,7 +53,7 @@ npx quartz build --serve
 ```
 
 > [!tip]
-> 如果在全新克隆后遇到构建错误，可以尝试 `npx quartz plugin install --latest` 将插件刷新到最新版本。详情参见 [[troubleshooting#Plugins fail to build on a fresh clone]]。
+> 如果在全新克隆后遇到构建错误，可以尝试 `npx quartz plugin install --latest` 将插件刷新到最新版本。详情参见 [[troubleshooting#全新克隆后插件构建失败]]。
 
 ## 🔧 功能
 

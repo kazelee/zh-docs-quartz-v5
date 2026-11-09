@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 未列出页面 (UnlistedPages)
 description: 将页面从导航和索引中隐藏，同时仍然发布它们。
 tags:
@@ -13,7 +14,7 @@ required: false
 零配置转换器，让页面 frontmatter 中的 `unlisted: true` 成为退出站点上所有列表展示位置的正式方式。该页面仍会作为 HTML 输出，并可通过直接 URL 访问，但不会出现在 `contentIndex.json`、RSS、站点地图、关系图谱、资源管理器、搜索、反向链接、近期笔记、文件夹列表和标签列表中。
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#插件|配置]] 页面。
 
 ## 用法
 

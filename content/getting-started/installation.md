@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: "安装"
 aliases:
   - "setting up your GitHub repository"
@@ -34,7 +35,7 @@ cd quartz
 ```
 
 > [!note]
-> 使用这种方式，稍后准备发布时，你需要把 `origin` 远程 [[#Connect Your Local Clone|指向你自己的仓库]]。
+> 使用这种方式，稍后准备发布时，你需要把 `origin` 远程 [[#连接你的本地克隆|指向你自己的仓库]]。
 
 ## 2. 安装依赖
 
@@ -58,7 +59,7 @@ npx quartz create
 
 它会提示你输入以下内容：
 
-- 一个 **模板**（`default`、`obsidian`、`ttrpg`、`blog`）—— 选择符合你使用场景的那一个。各类模板的详细信息见 [[create#Templates]]。
+- 一个 **模板**（`default`、`obsidian`、`ttrpg`、`blog`）—— 选择符合你使用场景的那一个。各类模板的详细信息见 [[create#模板]]。
 - 一个 **内容策略** —— 选择如何填充 `content/` 文件夹：
   - **new**：从空文件夹开始
   - **copy**：从已有文件夹复制文件（例如你的 Obsidian 库）
@@ -85,7 +86,7 @@ npx quartz plugin install --from-config
 > npx quartz plugin install --latest
 > ```
 >
-> 更多细节见 [[troubleshooting#Plugins fail to build on a fresh clone]]。
+> 更多细节见 [[troubleshooting#全新克隆后插件构建失败]]。
 
 ## 5. 预览站点
 
@@ -102,7 +103,7 @@ npx quartz build --serve
 ## 设置你的 GitHub 仓库
 
 > [!note]
-> 如果你在步骤 1 中使用了 **方式 A**（GitHub 模板），仓库已经存在，`origin` 也已设置好。你可以直接跳到 [[#Push Your Site]]。
+> 如果你在步骤 1 中使用了 **方式 A**（GitHub 模板），仓库已经存在，`origin` 也已设置好。你可以直接跳到 [[#推送你的站点]]。
 
 要发布站点，你需要自己的 GitHub 仓库。本节面向 **方式 B**（直接克隆）的用户。
 

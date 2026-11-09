@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: LaTeX (Latex)
 description: 通过 KaTeX 或 Typst 渲染 LaTeX 数学表达式。
 tags:
@@ -12,7 +13,7 @@ required: false
 本插件为 Quartz 添加 LaTeX 支持。更多信息请参阅 [[features/Latex|Latex]]。
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#插件|配置]] 页面。
 
 该插件接受以下配置选项：
 

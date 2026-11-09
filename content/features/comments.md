@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 评论
 tags:
   - component
@@ -7,7 +8,7 @@ tags:
 Quartz 还可以接入多种提供方，让读者在你的站点上留下评论。
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#插件|配置]] 页面。
 
 ![[giscus-example.png]]
 

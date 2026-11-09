@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: CNAME
 description: 为自定义域名部署输出 CNAME 文件。
 tags:
@@ -16,7 +17,7 @@ required: false
 更多信息请参阅 [[hosting|托管]]。
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#插件|配置]] 页面。
 
 该插件没有配置选项。
 

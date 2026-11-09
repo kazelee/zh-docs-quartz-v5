@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: "资源管理器"
 tags:
   - component
@@ -100,7 +101,7 @@ export const layout = await loadQuartzLayout()
 
 - 移除资源管理器：从 `quartz.config.yaml` 中删除 `explorer` 条目，或设置 `enabled: false`
   - （可选）：移除资源管理器组件后，你可以把 [[table of contents | 目录]] 组件移回布局的 `left` 部分
-- 修改 `sort`、`filter` 和 `map` 的行为：详见 [[#Advanced customization]]
+- 修改 `sort`、`filter` 和 `map` 的行为：详见 [[#高级自定义]]
 
 ## 高级自定义
 
@@ -149,7 +150,7 @@ ExternalPlugin.Explorer({
 
 ---
 
-你可以为 `sortFn`、`filterFn` 和 `mapFn` 传入自己的函数。所有函数都会按照 `order` 选项给出的顺序执行（参见 [[#Customization]]）。这些函数的行为与其 `Array.prototype` 上对应的同名方法类似，区别在于它们会就地修改整个 `FileNode` 树，而不是返回一个新的。
+你可以为 `sortFn`、`filterFn` 和 `mapFn` 传入自己的函数。所有函数都会按照 `order` 选项给出的顺序执行（参见 [[#自定义]]）。这些函数的行为与其 `Array.prototype` 上对应的同名方法类似，区别在于它们会就地修改整个 `FileNode` 树，而不是返回一个新的。
 
 有关如何使用 `sort`、`filter` 和 `map` 的更多信息，可以查看 [Array.prototype.sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)、[Array.prototype.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) 和 [Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)。
 

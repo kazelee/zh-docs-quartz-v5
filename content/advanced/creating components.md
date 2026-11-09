@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 创建组件插件
 ---
 
@@ -111,7 +112,7 @@ Component.css = styles
 
 ### 国际化
 
-组件插件对所有面向用户的字符串都应使用 i18n 模式。完整的设置指南见 [[making plugins#Internationalization (i18n)]]。
+组件插件对所有面向用户的字符串都应使用 i18n 模式。完整的设置指南见 [[making plugins#国际化（i18n）]]。
 
 快速参考：
 

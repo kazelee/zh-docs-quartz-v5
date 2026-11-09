@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 静态资源 (Assets)
 tags:
   - plugin/emitter
@@ -10,7 +11,7 @@ image: https://images.unsplash.com/photo-1526304640581-d334cdbbf45e
 注意，之后所有静态资源都可以通过其路径在你生成的站点上访问，即：`host.me/path/to/static.pdf`
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#插件|配置]] 页面。
 
 该插件没有配置选项。
 

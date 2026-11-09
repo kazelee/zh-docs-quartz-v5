@@ -1,8 +1,9 @@
 ---
+date: 2026-09-20
 title: 功能列表
 ---
 
-Quartz 开箱即带多种多样的功能。大多数功能由 [[configuration#Plugins|插件]] 提供，你可以通过 `quartz.config.yaml` 对它们进行配置、启用或禁用。
+Quartz 开箱即带多种多样的功能。大多数功能由 [[configuration#插件|插件]] 提供，你可以通过 `quartz.config.yaml` 对它们进行配置、启用或禁用。
 
 ## 内容功能
 

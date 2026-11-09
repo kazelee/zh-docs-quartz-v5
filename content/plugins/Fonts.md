@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 字体 (Fonts)
 description: 细粒度的字体控制，支持按标题级别设置、Google Fonts 集成以及主题字体发现。
 tags:
@@ -13,7 +14,7 @@ required: false
 该插件为你的 Quartz 站点提供细粒度的字体控制。它支持为不同标题级别设置字体族、在与 [Quartz Themes](https://github.com/saberzero1/quartz-themes) 配合使用时自动发现主题字体、集成 Google Fonts 并自动加载字重与斜体，并且在无法确定时回退到 Obsidian 的默认系统字体栈。
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#插件|配置]] 页面。
 
 ## 为什么使用 Fonts？
 

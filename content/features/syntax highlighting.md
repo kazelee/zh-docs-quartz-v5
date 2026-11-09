@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 语法高亮
 tags:
   - feature/transformer

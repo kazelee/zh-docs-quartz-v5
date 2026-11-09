@@ -1,8 +1,9 @@
 ---
+date: 2026-09-20
 title: 快速开始
 ---
 
-本指南将带你从零开始搭建 Quartz。如果你已经在首页运行过 [[index#🪴 Get Started|快速开始]]，可以直接跳到当前所处的步骤。
+本指南将带你从零开始搭建 Quartz。如果你已经在首页运行过 [[index#🪴 快速开始|快速开始]]，可以直接跳到当前所处的步骤。
 
 ## 前置条件
 
@@ -24,7 +25,7 @@ title: 快速开始
 
 1. **[[installation|安装]]** —— 获取 Quartz（通过 GitHub 模板或克隆）、安装依赖、运行设置向导（`npx quartz create`）、安装插件，并在本地预览站点
 2. **[[authoring-content|撰写内容]]** —— 在 `content/` 文件夹中编写并组织你的 Markdown 笔记
-3. **[[installation#Setting Up Your GitHub Repository|推送到 GitHub]]** —— 创建仓库并用 `npx quartz sync` 推送你的站点
+3. **[[installation#设置你的 GitHub 仓库|推送到 GitHub]]** —— 创建仓库并用 `npx quartz sync` 推送你的站点
 4. **[[hosting|部署]]** —— 在 GitHub Pages、Cloudflare、Netlify 或 Vercel 上免费托管你的站点
 
 ## 升级与迁移

@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 文件夹与标签列表
 tags:
   - feature/emitter
@@ -14,7 +15,7 @@ Quartz 会为该文件夹下的所有页面生成一个索引页。这包括任�
 
 你可以通过引用文件夹名称并加上末尾斜杠来链接到文件夹列表，就像这样：`[[advanced/]]`（结果为 [[advanced/]]）。
 
-默认情况下，Quartz 会将页面标题设为 `Folder: <folder name>`，并且没有描述。你可以通过在该文件夹中创建一个 `index.md` 文件并使用 `title` [[authoring content#Syntax|frontmatter]] 字段来覆盖它。你在这个文件中写入的任何内容也会被用作文件夹描述。
+默认情况下，Quartz 会将页面标题设为 `Folder: <folder name>`，并且没有描述。你可以通过在该文件夹中创建一个 `index.md` 文件并使用 `title` [[authoring content#语法|frontmatter]] 字段来覆盖它。你在这个文件中写入的任何内容也会被用作文件夹描述。
 
 例如，对于文件夹 `content/posts`，你可以再添加一个文件 `content/posts/index.md` 来为它添加专门的描述。
 

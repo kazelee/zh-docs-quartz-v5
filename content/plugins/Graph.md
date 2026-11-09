@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 关系图谱 (Graph)
 description: 交互式链接关系图谱可视化。
 tags:
@@ -12,7 +13,7 @@ required: false
 交互式关系图谱可视化。
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#插件|配置]] 页面。
 
 详细用法信息请参阅 [[graph view]]。
 

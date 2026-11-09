@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 撰写内容
 aliases:
   - "authoring content"
@@ -42,7 +43,7 @@ Quartz 原生支持的一些常见 frontmatter 字段：
 ## 同步你的内容
 
 当你的 Quartz 达到满意的状态时，可以把更改保存到 GitHub。
-首先，确保你已经 [[installation#Setting Up Your GitHub Repository|设置好 GitHub 仓库]]，然后运行 `npx quartz sync`。
+首先，确保你已经 [[installation#设置你的 GitHub 仓库|设置好 GitHub 仓库]]，然后运行 `npx quartz sync`。
 
 ## 自定义
 

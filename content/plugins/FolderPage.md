@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 文件夹页面 (FolderPage)
 description: 为文件夹生成列表页面。
 tags:
@@ -9,12 +10,12 @@ enabled: true
 required: false
 ---
 
-该插件是一个页面类型插件，为文件夹生成索引页面，为每个包含多个内容文件的文件夹创建一个列表页面。它使用 `default` 的 [[layout#Page Frames|页面框架]]（带侧边栏的三栏布局）。更多信息请参阅 [[folder and tag listings]]。
+该插件是一个页面类型插件，为文件夹生成索引页面，为每个包含多个内容文件的文件夹创建一个列表页面。它使用 `default` 的 [[layout#页面框架|页面框架]]（带侧边栏的三栏布局）。更多信息请参阅 [[folder and tag listings]]。
 
 示例：[[advanced/|进阶]]
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#插件|配置]] 页面。
 
 该插件接受以下配置选项：
 

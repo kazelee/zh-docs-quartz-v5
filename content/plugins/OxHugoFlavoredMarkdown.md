@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: ox-hugo 风格 Markdown (OxHugoFlavoredMarkdown)
 description: 针对 ox-hugo 导出的 Org-mode 文件的兼容性支持。
 tags:
@@ -12,7 +13,7 @@ required: false
 本插件提供对 [ox-hugo](https://github.com/kaushalmodi/ox-hugo) 的兼容性支持。更多信息请参阅 [[OxHugo compatibility]]。
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#插件|配置]] 页面。
 
 该插件接受以下配置选项：
 

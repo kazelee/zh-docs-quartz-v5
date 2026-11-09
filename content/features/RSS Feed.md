@@ -1,3 +1,7 @@
+---
+date: 2026-09-20
+---
+
 Quartz 会为站点上的所有内容输出 RSS feed，方式是生成一个可供 RSS 阅读器订阅的 `index.xml` 文件。由于 RSS 规范的要求，这需要你的 [[configuration]] 中的 `baseUrl` 属性设置正确，RSS 阅读器才能正确获取。
 
 > [!info]

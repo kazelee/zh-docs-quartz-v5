@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 页脚 (Footer)
 description: 带可配置链接的页面页脚。
 tags:
@@ -12,7 +13,7 @@ required: false
 该插件在页面底部渲染一个页脚，其中包含「Created with Quartz」消息和一组可配置的链接。
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#插件|配置]] 页面。
 
 ## 配置
 

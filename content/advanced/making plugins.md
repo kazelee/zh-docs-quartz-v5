@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 制作你自己的插件
 ---
 
@@ -389,12 +390,12 @@ export interface QuartzPageTypePluginInstance {
 - `match`：一个函数，用于判断给定的 slug/文件是否应由该页面类型渲染。
 - `generate`：一个可选函数，用于生成虚拟页面（不基于磁盘文件的页面，例如文件夹列表或标签索引）。
 - `layout`：布局配置键（例如 `"content"`、`"folder"`、`"tag"`）。它决定 `quartz.config.yaml` 中哪个 `byPageType` 条目为此页面类型提供布局覆盖。
-- `frame`：此页面类型要使用的 [[layout#Page Frames|页面框架]]。它控制整体 HTML 结构（例如 `"default"`、`"full-width"`、`"minimal"`，或你的插件提供的自定义框架）。如果未设置，默认为 `"default"`。可以通过 `quartz.config.yaml` 中的 `layout.byPageType.<name>.template` 按页面类型覆盖。
+- `frame`：此页面类型要使用的 [[layout#页面框架|页面框架]]。它控制整体 HTML 结构（例如 `"default"`、`"full-width"`、`"minimal"`，或你的插件提供的自定义框架）。如果未设置，默认为 `"default"`。可以通过 `quartz.config.yaml` 中的 `layout.byPageType.<name>.template` 按页面类型覆盖。
 - `body`：渲染页面正文内容的 Quartz 组件构造函数。
 
 ### 提供自定义框架
 
-插件可以随包提供自己的 [[layout#Page Frames|页面框架]]——即控制 HTML 结构（侧边栏、页眉、内容区、页脚）如何排列的自定义页面布局。这对于需要根本不同布局的页面类型（例如全屏画布、演示模式、仪表盘）很有用。
+插件可以随包提供自己的 [[layout#页面框架|页面框架]]——即控制 HTML 结构（侧边栏、页眉、内容区、页脚）如何排列的自定义页面布局。这对于需要根本不同布局的页面类型（例如全屏画布、演示模式、仪表盘）很有用。
 
 要提供自定义框架：
 
@@ -745,4 +746,4 @@ npx quartz plugin prune --dry-run
 
 对于提供可视组件（如 Explorer、Graph、Search）的插件，请参阅 [[creating components|创建组件插件]] 指南。
 
-纯组件插件（清单中包含 `"category": ["component"]` 的插件）通过副作用导入加载，而不是通过工厂函数。如果你的纯组件插件需要从 `quartz.config.yaml` 接收用户选项，请导出一个 `init(options)` 函数——详见 [[creating components#Receiving YAML Options in Component-Only Plugins|接收 YAML 选项]]。
+纯组件插件（清单中包含 `"category": ["component"]` 的插件）通过副作用导入加载，而不是通过工厂函数。如果你的纯组件插件需要从 `quartz.config.yaml` 接收用户选项，请导出一个 `init(options)` 函数——详见 [[creating components#在纯组件插件中接收 YAML 选项|接收 YAML 选项]]。

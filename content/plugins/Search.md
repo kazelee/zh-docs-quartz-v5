@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 搜索 (Search)
 description: 支持标签过滤和键盘导航的全文搜索。
 tags:
@@ -12,7 +13,7 @@ required: false
 全文搜索功能。
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#插件|配置]] 页面。
 
 详细用法信息请参阅 [[full-text search]]。
 

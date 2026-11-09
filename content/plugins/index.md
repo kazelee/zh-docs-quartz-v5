@@ -1,9 +1,10 @@
 ---
+date: 2026-09-20
 title: 插件 (Plugins)
 image:
 ---
 
-Quartz 的功能由一组第一方社区插件提供。每个插件都可以通过 `quartz.config.yaml` 启用、禁用和配置。有关如何管理插件的详细信息，请参阅 [[configuration#Plugins|配置]]。
+Quartz 的功能由一组第一方社区插件提供。每个插件都可以通过 `quartz.config.yaml` 启用、禁用和配置。有关如何管理插件的详细信息，请参阅 [[configuration#插件|配置]]。
 
 > [!info] 内部插件与社区插件
 > Quartz 有两类插件：

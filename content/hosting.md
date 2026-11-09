@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 托管
 ---
 
@@ -7,7 +8,7 @@ Quartz 会将你的 Markdown 文件和其他资源打包成一组 HTML、JS 和 
 不过，如果你想将站点发布给全世界，就需要一个在线托管它的方式。本指南将详细介绍如何用常见的托管服务商进行部署，但任何允许部署静态 HTML 的服务同样可行。
 
 > [!warning]
-> 本指南的其余部分假设你已经为 Quartz 创建了自己的 GitHub 仓库。如果还没有，请按安装指南中 [[installation#Setting Up Your GitHub Repository|GitHub 仓库设置]] 一节操作。
+> 本指南的其余部分假设你已经为 Quartz 创建了自己的 GitHub 仓库。如果还没有，请按安装指南中 [[installation#设置你的 GitHub 仓库|GitHub 仓库设置]] 一节操作。
 
 > [!hint]
 > Quartz 的一些功能（如 [[RSS Feed]] 和站点地图生成）需要你在 [[configuration]] 中正确配置 `baseUrl` 才能正常工作。部署前请务必设置好！
@@ -36,7 +37,7 @@ Quartz 会将你的 Markdown 文件和其他资源打包成一组 HTML、JS 和 
 > Cloudflare Pages 默认执行浅克隆，因此如果你依赖 `git` 获取时间戳，建议在构建命令开头加上 `git fetch --unshallow &&`（例如 `git fetch --unshallow && npx quartz plugin install && npx quartz build`）。
 
 > [!note]
-> 关于更详细的 CI/CD 配置（包括缓存和插件管理），请参阅 [[migrating#Updating Your CI/CD|迁移指南]]。
+> 关于更详细的 CI/CD 配置（包括缓存和插件管理），请参阅 [[migrating#更新你的 CI/CD|迁移指南]]。
 
 ## GitHub Pages
 

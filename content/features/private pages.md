@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 私有页面
 tags:
   - feature/filter
@@ -8,7 +9,7 @@ tags:
 
 ## 过滤器插件
 
-[[making plugins#Filters|过滤器插件]] 是根据特定条件过滤内容的插件。默认情况下，Quartz 使用 [[RemoveDrafts]] 插件，它会过滤掉 frontmatter 中带有 `draft: true` 的任何笔记。
+[[making plugins#过滤器|过滤器插件]] 是根据特定条件过滤内容的插件。默认情况下，Quartz 使用 [[RemoveDrafts]] 插件，它会过滤掉 frontmatter 中带有 `draft: true` 的任何笔记。
 
 如果你只想发布选定数量的笔记，可以改用 [[ExplicitPublish]]，它会过滤掉所有笔记，只保留 frontmatter 中带有 `publish: true` 的笔记。
 

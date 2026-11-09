@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 全文搜索
 tags:
   - component
@@ -7,7 +8,7 @@ tags:
 Quartz 中的全文搜索由 [Flexsearch](https://github.com/nextapps-de/flexsearch) 提供支持。它足够快，即使 Quartz 站点大到五十万词，也能在 10 毫秒以内返回搜索结果。
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#插件|配置]] 页面。
 
 你可以通过点击搜索栏，或按 `⌘`/`ctrl` + `K` 来打开它。每次查询会显示前 5 条搜索结果。匹配的子词会被高亮，并摘录最相关的 30 个词。点击搜索结果会跳转到该页面。
 

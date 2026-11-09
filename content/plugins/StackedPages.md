@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 堆叠页面 (StackedPages)
 description: Andy Matuschak 风格的堆叠滑动面板。
 tags:
@@ -13,7 +14,7 @@ required: false
 Andy Matuschak 风格的堆叠页面（滑动面板）。点击内部链接会在水平堆叠中并排打开页面，让你可以追溯自己在笔记中的路径。每个面板显示完整页面，可单独滚动或关闭。
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#插件|配置]] 页面。
 
 ## 用法
 

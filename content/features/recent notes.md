@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 最近的笔记
 tags: component
 ---
@@ -6,7 +7,7 @@ tags: component
 Quartz 可以根据一些过滤和排序条件生成一份最近的笔记列表。虽然该组件默认不包含在任何 [[layout]] 中，但你可以安装插件并在 `quartz.config.yaml` 中配置来添加它。
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#插件|配置]] 页面。
 
 ## 自定义
 

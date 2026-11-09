@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 加密页面 (EncryptedPages)
 description: 受密码保护的加密页面，配有影子内容索引。
 tags:
@@ -17,7 +18,7 @@ required: false
 > 自己试一试：[[EncryptedPages Demo]]。密码是 `quartz`。
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#插件|配置]] 页面。
 
 ## 用法
 

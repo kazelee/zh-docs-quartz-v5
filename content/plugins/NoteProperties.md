@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 笔记属性 (NoteProperties)
 description: 在可折叠面板中显示 frontmatter 属性。
 tags:
@@ -13,7 +14,7 @@ required: true
 NoteProperties 插件的文档位于 [[Frontmatter]]。
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#插件|配置]] 页面。
 
 ## API
 

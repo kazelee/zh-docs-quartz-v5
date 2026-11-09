@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 内容索引 (ContentIndex)
 description: 生成站点地图、RSS 订阅源和内容索引。
 tags:

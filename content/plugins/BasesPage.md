@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: Bases 页面 (BasesPage)
 description: 将 Obsidian Bases 文件渲染为数据库风格的视图。
 tags:
@@ -11,10 +12,10 @@ enabled: true
 required: false
 ---
 
-该插件为 Quartz 提供对 [Obsidian Bases](https://obsidian.md/changelog/2025-04-15-desktop-v1.8.0/)（`.base` 文件）的支持。它从你的库中读取 `.base` 文件，根据查询定义解析匹配的笔记，并将它们渲染为支持表格、列表、卡片和地图的交互式数据库风格视图。它使用 `default` [[layout#Page Frames|页面框架]]（带侧边栏的三栏布局）。
+该插件为 Quartz 提供对 [Obsidian Bases](https://obsidian.md/changelog/2025-04-15-desktop-v1.8.0/)（`.base` 文件）的支持。它从你的库中读取 `.base` 文件，根据查询定义解析匹配的笔记，并将它们渲染为支持表格、列表、卡片和地图的交互式数据库风格视图。它使用 `default` [[layout#页面框架|页面框架]]（带侧边栏的三栏布局）。
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#插件|配置]] 页面。
 
 ## 特性
 

@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: frontmatter 解析 (Frontmatter)
 aliases:
   - note-properties
@@ -15,10 +16,10 @@ enabled: true
 required: true
 ---
 
-该插件使用 [gray-matter](https://github.com/jonschlinkert/gray-matter) 库解析页面的 frontmatter，并可选择在可折叠面板中显示选定的属性。更多信息请参阅 [[authoring content#Syntax]]、[[Obsidian compatibility]] 和 [[OxHugo compatibility]]。
+该插件使用 [gray-matter](https://github.com/jonschlinkert/gray-matter) 库解析页面的 frontmatter，并可选择在可折叠面板中显示选定的属性。更多信息请参阅 [[authoring content#语法]]、[[Obsidian compatibility]] 和 [[OxHugo compatibility]]。
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#插件|配置]] 页面。
 
 > [!warning]
 > 不得移除此插件，否则 Quartz 会出问题。

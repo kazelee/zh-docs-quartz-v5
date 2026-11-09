@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: "迁移到 Quartz 5"
 aliases:
   - "migrating from Quartz 3"
@@ -216,7 +217,7 @@ npx quartz plugin install && npx quartz build
 1. **Hugo 已移除**：Quartz 现在使用基于 Node 的静态站点生成流程。不再需要 Go 模板或 `hugo-obsidian`。
 2. **完整的热重载**：开发服务器（`npx quartz build --serve`）会在每次更改时重新处理所有内容。
 3. **用 JSX 替代 Go 模板**：布局组件用 JSX（JavaScript XML）编写，自定义起来要容易得多。
-4. **新的插件系统**：可扩展插件架构的细节见 [[configuration#Plugins|插件]]。
+4. **新的插件系统**：可扩展插件架构的细节见 [[configuration#插件|插件]]。
 
 ### 需要更新的事项
 

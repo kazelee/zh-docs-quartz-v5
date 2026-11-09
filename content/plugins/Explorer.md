@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 资源管理器 (Explorer)
 description: 文件树资源管理器侧边栏。
 tags:
@@ -12,7 +13,7 @@ required: false
 文件树资源管理器侧边栏。
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#插件|配置]] 页面。
 
 详细用法信息请参阅 [[plugins/Explorer]]。
 
@@ -60,7 +61,7 @@ ExternalPlugin.Explorer({
 })
 ```
 
-更多示例请参阅 [[features/explorer#Advanced customization]]。
+更多示例请参阅 [[features/explorer#高级自定义]]。
 
 ## API
 

@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 引用 (Citations)
 description: 通过 BibTeX 提供学术引用与参考文献支持。
 tags:
@@ -12,7 +13,7 @@ required: false
 该插件为 Quartz 添加引用支持。
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#插件|配置]] 页面。
 
 该插件接受以下配置选项：
 

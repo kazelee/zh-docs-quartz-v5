@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 阅读模式 (ReaderMode)
 description: 无干扰阅读模式的切换开关。
 tags:
@@ -13,7 +14,7 @@ required: false
 无干扰阅读模式。
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#插件|配置]] 页面。
 
 详细用法信息请参阅 [[reader mode]]。
 

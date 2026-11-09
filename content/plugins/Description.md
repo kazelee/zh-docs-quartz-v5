@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 描述 (Description)
 description: 为元数据和预览生成页面描述。
 tags:
@@ -11,10 +12,10 @@ required: false
 
 本插件生成描述，这些描述用作 HTML `head` 的元数据、[[RSS Feed]] 的元数据；在 [[folder and tag listings]] 中，如果没有主体正文内容，描述会被用作标题与列表之间的文字。
 
-如果 frontmatter 包含 `description` 属性，则使用该属性（参见 [[authoring content#Syntax]]）。否则，插件会尽可能使用内容的前几句话来达到目标描述长度。
+如果 frontmatter 包含 `description` 属性，则使用该属性（参见 [[authoring content#语法]]）。否则，插件会尽可能使用内容的前几句话来达到目标描述长度。
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参见 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参见 [[configuration#插件|配置]] 页面。
 
 本插件接受以下配置选项：
 

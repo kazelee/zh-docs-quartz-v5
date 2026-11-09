@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 目录 (TableOfContents)
 description: 根据标题生成并渲染目录。
 tags:
@@ -13,7 +14,7 @@ required: false
 本插件为 Markdown 文档生成目录（TOC）。更多信息请参阅 [[table of contents]]。
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#插件|配置]] 页面。
 
 本插件接受以下配置选项：
 

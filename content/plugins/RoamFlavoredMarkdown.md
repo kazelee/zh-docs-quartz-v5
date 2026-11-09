@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: Roam 风格 Markdown (RoamFlavoredMarkdown)
 description: 兼容 Roam Research 导出格式。
 tags:
@@ -12,7 +13,7 @@ required: false
 本插件提供对 [Roam Research](https://roamresearch.com) 的兼容支持。更多信息请参阅 [[Roam Research compatibility]]。
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#插件|配置]] 页面。
 
 本插件接受以下配置选项：
 

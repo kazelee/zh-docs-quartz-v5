@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 标签页面 (TagPage)
 description: 为标签生成列表页面。
 tags:
@@ -9,10 +10,10 @@ enabled: true
 required: false
 ---
 
-本插件是一个页面类型插件，会为内容中使用的每个标签输出专门的页面。它使用 `default` [[layout#Page Frames|页面框架]]（带侧边栏的三栏布局）。更多信息请参阅 [[folder and tag listings]]。
+本插件是一个页面类型插件，会为内容中使用的每个标签输出专门的页面。它使用 `default` [[layout#页面框架|页面框架]]（带侧边栏的三栏布局）。更多信息请参阅 [[folder and tag listings]]。
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#插件|配置]] 页面。
 
 本插件接受以下配置选项：
 

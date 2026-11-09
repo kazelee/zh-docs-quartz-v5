@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 内容页面 (ContentPage)
 description: 为 Markdown 内容生成 HTML 页面。
 tags:
@@ -9,10 +10,10 @@ enabled: true
 required: false
 ---
 
-本插件是 Quartz 框架的页面类型插件。它为每一份 Markdown 内容生成 HTML 页面。它输出整页的 [[layout]]，包括页眉、页脚和正文内容等。它使用 `default` [[layout#Page Frames|页面框架]]（带侧边栏的三栏布局）。现在它配置在 `quartz.config.yaml` 的 `pageTypes` 部分。
+本插件是 Quartz 框架的页面类型插件。它为每一份 Markdown 内容生成 HTML 页面。它输出整页的 [[layout]]，包括页眉、页脚和正文内容等。它使用 `default` [[layout#页面框架|页面框架]]（带侧边栏的三栏布局）。现在它配置在 `quartz.config.yaml` 的 `pageTypes` 部分。
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参见 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参见 [[configuration#插件|配置]] 页面。
 
 本插件没有配置选项。
 

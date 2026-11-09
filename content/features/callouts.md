@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 标注块（callout）
 tags:
   - feature/transformer

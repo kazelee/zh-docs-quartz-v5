@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: quartz plugin
 ---
 
@@ -69,7 +70,7 @@ npx quartz plugin install
 - `--latest`：从插件的远程源获取最新版本，而不是使用 lockfile 中的版本。
 - `--clean`：跳过已存在的目录，执行全新的安装。
 - `--dry-run`：预览更改，但不实际安装或移除任何文件。
-- `--concurrency`、`-c`：并行克隆、获取和构建的最大插件数。默认为 CPU 核心数。在内存或 CPU 受限、默认并行度会导致失败、OOM 或卡死的机器上，请调低此值（例如 `-c 1` 或 `-c 2`）。见下文的 [[#Installing on low-end hardware]]。
+- `--concurrency`、`-c`：并行克隆、获取和构建的最大插件数。默认为 CPU 核心数。在内存或 CPU 受限、默认并行度会导致失败、OOM 或卡死的机器上，请调低此值（例如 `-c 1` 或 `-c 2`）。见下文的 [[#在低端硬件上安装]]。
 
 #### 位置参数
 
@@ -251,7 +252,7 @@ plugins:
     enabled: true
 ```
 
-有关对象源字段的完整参考，见 [[configuration#Advanced Source Options|高级源选项]]。
+有关对象源字段的完整参考，见 [[configuration#高级源选项|高级源选项]]。
 
 > [!note]
 > `plugin add` CLI 命令只支持字符串形式的源。要使用带 `subdir` 的对象源格式，请直接编辑 `quartz.config.yaml`，然后运行 `npx quartz plugin install --from-config` 进行安装。

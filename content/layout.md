@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 布局
 ---
 
@@ -7,7 +8,7 @@ title: 布局
 在 v5 中，布局在 `quartz.config.yaml` 中定义。每个插件通过 `layout.position` 和 `layout.priority` 字段控制自己的布局位置。顶层的 `layout` 部分提供两种额外机制：
 
 - `layout.groups` 定义 flex 容器（如 `toolbar`），将多个组件组合到同一行或同一列。详见 [[layout-components]]。
-- `layout.byPageType` 包含按页面类型（content、folder、tag、404）对 beforeBody、left、right 各区域的覆盖，以及可选的 `template`，用于控制页面的 [[#Page Frames|页面框架]]。
+- `layout.byPageType` 包含按页面类型（content、folder、tag、404）对 beforeBody、left、right 各区域的覆盖，以及可选的 `template`，用于控制页面的 [[#页面框架|页面框架]]。
 
 每个页面由多个不同的区域组成，这些区域包含 `QuartzComponents`。下面的代码片段列出了所有可以向其中添加组件的有效区域：
 
@@ -205,7 +206,7 @@ layout:
 
 **1. 插件提供的框架（推荐用于可复用的框架）：**
 
-插件可以通过在 `package.json` 中声明并从 `./frames` 子路径导出，来提供自己的框架。详见 [[making plugins#Providing Custom Frames|插件指南]]。安装带有框架的插件后，其框架会自动注册到 Frame Registry，并可按名称使用。
+插件可以通过在 `package.json` 中声明并从 `./frames` 子路径导出，来提供自己的框架。详见 [[making plugins#提供自定义框架|插件指南]]。安装带有框架的插件后，其框架会自动注册到 Frame Registry，并可按名称使用。
 
 **2. 核心框架（用于特定项目的框架）：**
 
@@ -240,7 +241,7 @@ $breakpoints: (
 
 ### 样式
 
-大多数有意义的样式更改（如配色方案和字体）都可以直接通过 [[configuration#General Configuration|通用配置]] 选项完成。不过，如果你想进行更复杂的样式更改，可以编写自己的样式。Quartz 使用 [Sass](https://sass-lang.com/guide/) 进行样式处理。
+大多数有意义的样式更改（如配色方案和字体）都可以直接通过 [[configuration#通用配置|通用配置]] 选项完成。不过，如果你想进行更复杂的样式更改，可以编写自己的样式。Quartz 使用 [Sass](https://sass-lang.com/guide/) 进行样式处理。
 
 基础样式表位于 `quartz/styles/base.scss`，你可以在 `quartz/styles/custom.scss` 中编写自己的样式。
 

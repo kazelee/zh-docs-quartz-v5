@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 深色模式 (Darkmode)
 description: 在浅色和深色主题之间切换。
 tags:

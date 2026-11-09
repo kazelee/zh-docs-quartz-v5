@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 配置
 ---
 
@@ -102,7 +103,7 @@ plugins:
 - [[tags/plugin/transformer|转换器]] 对内容做 **map** 映射（例如解析 frontmatter、生成描述）
 - [[tags/plugin/filter|过滤器]] 对内容进行 **filter** 过滤（例如过滤掉草稿）
 - [[tags/plugin/emitter|输出器]] 对内容进行 **reduce** 归约（例如创建 RSS feed，或创建列出所有带有特定标签的文件的页面）
-- **页面类型** 定义不同类型的页面如何渲染（内容页面、文件夹列表、标签列表）。每种页面类型可以使用不同的 [[layout#Page Frames|页面框架]] 来控制其整体 HTML 结构。
+- **页面类型** 定义不同类型的页面如何渲染（内容页面、文件夹列表、标签列表）。每种页面类型可以使用不同的 [[layout#页面框架|页面框架]] 来控制其整体 HTML 结构。
 
 `quartz.config.yaml` 中的 `layout.byPageType` 部分还可以设置 `template` 字段，为特定页面类型覆盖页面框架：
 
@@ -113,7 +114,7 @@ layout:
       template: minimal # 为 canvas 页面覆盖页面框架
 ```
 
-可用的框架以及框架解析方式详见 [[layout#Page Frames]]。
+可用的框架以及框架解析方式详见 [[layout#页面框架]]。
 
 ### 内部插件与外部插件
 

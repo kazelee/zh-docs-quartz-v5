@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: GitHub 风格 Markdown (GitHubFlavoredMarkdown)
 description: GitHub 风格 Markdown 支持（表格、任务列表、脚注、删除线）。
 tags:
@@ -14,7 +15,7 @@ required: false
 此外，该插件还提供可选的排版优化特性（例如把直引号转换为弯引号、把短横线转换为连接号/长破折号，以及省略号），以及自动生成的标题链接——它表现为悬停在标题旁时出现的一个符号。
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#插件|配置]] 页面。
 
 该插件接受以下配置选项：
 

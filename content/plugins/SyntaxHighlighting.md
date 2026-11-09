@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: 语法高亮 (SyntaxHighlighting)
 description: 为代码块提供语法高亮。
 tags:
@@ -12,7 +13,7 @@ required: false
 本插件用于为 Quartz 中的代码块添加语法高亮。更多信息请参阅 [[syntax highlighting]]。
 
 > [!note]
-> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#Plugins|配置]] 页面。
+> 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#插件|配置]] 页面。
 
 本插件接受以下配置选项：
 

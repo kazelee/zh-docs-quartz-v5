@@ -1,4 +1,5 @@
 ---
+date: 2026-09-20
 title: CLI 参考
 ---
 
@@ -37,7 +38,7 @@ Quartz CLI 是与 Quartz 项目交互的主要方式。它提供了创建新项�
 | `--verbose`     | `-v`      | 启用详细的日志记录以便调试                                                                              | `false`        |
 | `--concurrency` | `-c`      | 并行执行的操作（例如 `build`、`plugin install`、`plugin add`）的最大并行工作线程数                      | CPU 核心数     |
 
-不进行并行工作的命令会将 `-c` 视为空操作，因此始终可以安全地传入。实际示例见 [[build#Performance Tuning|build]] 和 [[cli/plugin#Installing on low-end hardware|plugin]]。
+不进行并行工作的命令会将 `-c` 视为空操作，因此始终可以安全地传入。实际示例见 [[build#性能调优|build]] 和 [[cli/plugin#在低端硬件上安装|plugin]]。
 
 ## 帮助与版本
 
