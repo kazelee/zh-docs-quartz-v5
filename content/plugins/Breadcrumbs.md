@@ -15,7 +15,9 @@ required: false
 > [!note]
 > 有关如何添加、移除或配置插件的信息，请参阅 [[configuration#插件|配置]] 页面。
 
-详细用法信息请参阅 [[plugins/Breadcrumbs]]。
+详细用法信息请参阅 [[features/Breadcrumbs]]。
+
+> [TranslatorNote] 译者注：原文这里是 `[[plugins/Breadcrumbs]]`，但这样就自指了，其实应该是 `[[features/Breadcrumbs]]`，目前官方网站已经修复了，这里也做相应的更改。
 
 ## 配置
 
